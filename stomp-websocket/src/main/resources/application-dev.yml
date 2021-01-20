@@ -15,9 +15,9 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/rbac_db?autoReconnect=true&useUnicode=true&characterEncoding=utf-8&failOverReadOnly=false&useSSL=true&useLegacyDatetimeCode=false&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://192.168.211.146:3306/sys?autoReconnect=true&useUnicode=true&characterEncoding=utf-8&failOverReadOnly=false&useSSL=true&useLegacyDatetimeCode=false&serverTimezone=Asia/Shanghai
     username: root
-    password: root
+    password: 123456
 
   #Thymeleaf
   thymeleaf:
